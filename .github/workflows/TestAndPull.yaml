@@ -19,13 +19,13 @@ jobs:
           dotnet-version: '8.0.x'  # ajusta según tu versión
 
       - name: Restaurar dependencias
-        run: dotnet restore
+        run: dotnet restore # Recomendado manejarlo para evitar el error "NETSDK1064: Package xunit.analyzers, version 1.4.0 was not found."
 
       - name: Compilar solución
-        run: dotnet build
+        run: dotnet build --no-restore # Recomendado manejarlo asi para la restauracion ya que "--no-restore" omite la restauracion
 
       - name: Ejecutar pruebas
-        id: test
+        id: Test xUnit
         run: dotnet test Domain.Test/Domain.Test.csproj --no-build --verbosity normal
 
       - name: Mensaje si pruebas pasan
