@@ -100,3 +100,4 @@ C:\Users\kalopezt\source\repos\Dominio\Domain.Test\obj\Debug\net8.0\refint\Domai
 C:\Users\kalopezt\source\repos\Dominio\Domain.Test\obj\Debug\net8.0\Domain.Test.pdb
 C:\Users\kalopezt\source\repos\Dominio\Domain.Test\obj\Debug\net8.0\Domain.Test.genruntimeconfig.cache
 C:\Users\kalopezt\source\repos\Dominio\Domain.Test\obj\Debug\net8.0\ref\Domain.Test.dll
+C:\Users\kalopezt\source\repos\Dominio\Domain.Test\obj\Debug\net8.0\Domain.Test.sourcelink.json
