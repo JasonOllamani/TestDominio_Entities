@@ -18,8 +18,11 @@ jobs:
         with:
           dotnet-version: '8.0.x'  # ajusta según tu versión
 
+      - name: Restaurar dependencias
+        run: dotnet restore
+
       - name: Compilar solución
-        run: dotnet build --no-restore
+        run: dotnet build
 
       - name: Ejecutar pruebas
         id: test
