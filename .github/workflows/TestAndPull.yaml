@@ -1,0 +1,34 @@
+name: Ejecutar pruebas
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: windows-latest
+
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v3
+
+      - name: Instalar .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'  # ajusta según tu versión
+
+      - name: Compilar solución
+        run: dotnet build --no-restore
+
+      - name: Ejecutar pruebas
+        id: test
+        run: dotnet test Domain.Test/Domain.Test.csproj --no-build --verbosity normal
+
+      - name: Mensaje si pruebas pasan
+        if: success()
+        run: echo "Las pruebas fueron exitosas."
+
+      - name: Mensaje si pruebas fallan
+        if: failure()
+        run: echo "Las pruebas fallaron. Revisa los errores antes de continuar."

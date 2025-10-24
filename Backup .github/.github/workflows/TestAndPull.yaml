@@ -1,0 +1,39 @@
+name: Test y pull remoto
+
+on:
+  push:
+    branches:
+      - master  # o main
+
+jobs:
+  test-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v3
+
+      - name: Instalar .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restaurar dependencias
+        run: dotnet restore
+
+      - name: Compilar solución
+        run: dotnet build --no-restore
+
+      - name: Ejecutar pruebas
+        run: dotnet test TestDominio/TestDominio.csproj --no-build --verbosity normal
+
+      - name: Hacer pull en servidor remoto si pasa
+        if: success()
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.REMOTE_HOST }}
+          username: ${{ secrets.REMOTE_USER }}
+          key: ${{ secrets.REMOTE_SSH_KEY }}
+          script: |
+            cd /ruta/a/tu/proyecto
+            git pull origin master
