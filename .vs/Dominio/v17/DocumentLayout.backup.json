@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18FD4535-93AD-4263-84E0-D5C36D148C41}|Domain.Test\\Domain.Test.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\domain.test\\domain.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{18FD4535-93AD-4263-84E0-D5C36D148C41}|Domain.Test\\Domain.Test.csproj|solutionrelative:domain.test\\domain.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{18FD4535-93AD-4263-84E0-D5C36D148C41}|Domain.Test\\Domain.Test.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\domain.test\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18FD4535-93AD-4263-84E0-D5C36D148C41}|Domain.Test\\Domain.Test.csproj|solutionrelative:domain.test\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\dominio\\enums\\categoriaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|solutionrelative:dominio\\enums\\categoriaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\dominio\\valueobjects\\precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|solutionrelative:dominio\\valueobjects\\precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\dominio\\enums\\categoriaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|solutionrelative:dominio\\enums\\categoriaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\dominio\\entities\\carritodecompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,31 +43,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Domain.Test",
-              "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Domain.Test\\Domain.Test.csproj",
-              "RelativeDocumentMoniker": "Domain.Test\\Domain.Test.csproj",
-              "ToolTip": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Domain.Test\\Domain.Test.csproj",
-              "RelativeToolTip": "Domain.Test\\Domain.Test.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-24T16:33:32.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CarritoDeCompras.cs",
-              "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Entities\\CarritoDeCompras.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entities\\CarritoDeCompras.cs",
-              "ToolTip": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Entities\\CarritoDeCompras.cs",
-              "RelativeToolTip": "Dominio\\Entities\\CarritoDeCompras.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T23:53:53.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Tests.cs",
               "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Domain.Test\\Tests.cs",
               "RelativeDocumentMoniker": "Domain.Test\\Tests.cs",
@@ -84,7 +55,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "CarritoDeCompras.cs",
+              "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Entities\\CarritoDeCompras.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entities\\CarritoDeCompras.cs",
+              "ToolTip": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Entities\\CarritoDeCompras.cs",
+              "RelativeToolTip": "Dominio\\Entities\\CarritoDeCompras.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T23:53:53.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "IProductoRepository.cs",
               "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Interfaces\\IProductoRepository.cs",
               "RelativeDocumentMoniker": "Dominio\\Interfaces\\IProductoRepository.cs",
@@ -108,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Precio.cs",
               "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\ValueObjects\\Precio.cs",
               "RelativeDocumentMoniker": "Dominio\\ValueObjects\\Precio.cs",
@@ -120,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Entities\\Producto.cs",
               "RelativeDocumentMoniker": "Dominio\\Entities\\Producto.cs",
