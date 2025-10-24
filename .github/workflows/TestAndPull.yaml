@@ -20,6 +20,7 @@ jobs:
 
       # - name: Restaurar dependencias
       #   run: dotnet restore # Recomendado manejarlo para evitar el error "NETSDK1064: Package xunit.analyzers, version 1.4.0 was not found."
+      # dotnet build puede tener --no-restore, si no se maneja este restore y build tiene --no-restore mandara el error anterior
 
       - name: Compilar solución
         run: dotnet build # Recomendado manejarlo sin "--no-restore" en la primera compilacion de la solucion

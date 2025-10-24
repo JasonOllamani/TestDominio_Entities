@@ -15,7 +15,7 @@ namespace Domain.Test
         [Fact]
         public void Precio_Valido_SeCreaCorrectamente()
         {
-            var precio = new Precio(100);//Nuevo Objeto con valor 100
+            var precio = new Precio(101);//Nuevo Objeto con valor 100
             Assert.Equal(100, precio.Valor);//Verifica la propiedad Valor
         }
     }
