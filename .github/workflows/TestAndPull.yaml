@@ -18,11 +18,12 @@ jobs:
         with:
           dotnet-version: '8.0.x'  # ajusta según tu versión
 
-      - name: Restaurar dependencias
-        run: dotnet restore # Recomendado manejarlo para evitar el error "NETSDK1064: Package xunit.analyzers, version 1.4.0 was not found."
+      # - name: Restaurar dependencias
+      #   run: dotnet restore # Recomendado manejarlo para evitar el error "NETSDK1064: Package xunit.analyzers, version 1.4.0 was not found."
 
       - name: Compilar solución
-        run: dotnet build --no-restore # Recomendado manejarlo asi para la restauracion ya que "--no-restore" omite la restauracion
+        run: dotnet build --no-restore # Recomendado manejarlo sin "--no-restore" en la primera compilacion de la solucion
+        # Colocar "--no-restore" para omitir la restauracion de los paquetes y si no exiten cambios en el .csproj
 
       - name: Ejecutar pruebas
         id: Test_xUnit # Usar _ para conectar, NO manejar espacios
