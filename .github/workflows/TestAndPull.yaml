@@ -22,7 +22,7 @@ jobs:
       #   run: dotnet restore # Recomendado manejarlo para evitar el error "NETSDK1064: Package xunit.analyzers, version 1.4.0 was not found."
 
       - name: Compilar solución
-        run: dotnet build --no-restore # Recomendado manejarlo sin "--no-restore" en la primera compilacion de la solucion
+        run: dotnet build # Recomendado manejarlo sin "--no-restore" en la primera compilacion de la solucion
         # Colocar "--no-restore" para omitir la restauracion de los paquetes y si no exiten cambios en el .csproj
 
       - name: Ejecutar pruebas
