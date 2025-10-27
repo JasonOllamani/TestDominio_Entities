@@ -1,6 +1,9 @@
 using Dominio.Entities;//class Producto
 using Dominio.Enums;//class Categoria
+using Dominio.Interfaces;
+using Dominio.Servicios;
 using Dominio.ValueObjects;//Importa la class Precio
+using Moq;
 
 namespace Domain.Test
 {
@@ -110,6 +113,74 @@ namespace Domain.Test
             // Assert
             Assert.Equal(2, carrito.CantidadProductos);
             Assert.Equal(700, total);
+        }
+    }
+
+    public class ProductoServiceTests
+    {
+        [Fact]
+        public async Task ObtenerProducto_ProductoExiste_DevuelveProducto()
+        {
+            // Arrange
+            var productoEsperado = new Producto
+            {
+                Id = 1,
+                Nombre = "Laptop",
+                Precio = new Precio(15000),
+                Categoria = CategoriaProducto.Electronica
+            };
+
+            var mockRepo = new Mock<IProductoRepository>();
+            mockRepo.Setup(r => r.ObtenerPorIdAsync(1))
+                    .ReturnsAsync(productoEsperado);
+
+            var servicio = new ProductoService(mockRepo.Object);
+
+            // Act
+            var resultado = await servicio.ObtenerProducto(1);
+
+            // Assert
+            Assert.NotNull(resultado);
+            Assert.Equal("Laptop", resultado!.Nombre);
+            Assert.Equal(15000, resultado.Precio.Valor);
+        }
+    }
+
+    public class ServicioPromocionTests
+    {
+        [Fact]
+        public async Task AplicarDescuentoVip_ClienteEsVip_AplicaDescuento()
+        {
+            // Arrange
+            var cliente = new Cliente { Id = 1, Nombre = "Juan", EsVip = true };
+
+            var productos = new List<Producto>
+        {
+            new Producto { Id = 1, Nombre = "Laptop", Categoria = CategoriaProducto.Electronica, Precio = new Precio(1000) },
+            new Producto { Id = 2, Nombre = "Mouse", Categoria = CategoriaProducto.Electronica, Precio = new Precio(100) },
+            new Producto { Id = 3, Nombre = "Camisa", Categoria = CategoriaProducto.Ropa, Precio = new Precio(50) }
+        };
+
+            var mockClienteRepo = new Mock<IClienteRepository>();
+            mockClienteRepo.Setup(r => r.ObtenerPorIdAsync(1)).ReturnsAsync(cliente);
+
+            var mockProductoRepo = new Mock<IProductoRepository>();
+            mockProductoRepo.Setup(r => r.ObtenerTodosAsync()).ReturnsAsync(productos);
+            mockProductoRepo.Setup(r => r.ActualizarAsync(It.IsAny<Producto>())).Returns(Task.CompletedTask);
+
+            var servicio = new ServicioPromocion(mockClienteRepo.Object, mockProductoRepo.Object);
+
+            // Act
+            await servicio.AplicarDescuentoVip(1, CategoriaProducto.Electronica, 0.1m);
+
+            // Assert
+            Assert.Equal(900, productos[0].Precio.Valor);
+            Assert.Equal(90, productos[1].Precio.Valor);
+            Assert.Equal(50, productos[2].Precio.Valor); // No cambia, categoría distinta
+
+            mockProductoRepo.Verify(r => r.ActualizarAsync(productos[0]), Times.Once);
+            mockProductoRepo.Verify(r => r.ActualizarAsync(productos[1]), Times.Once);
+            mockProductoRepo.Verify(r => r.ActualizarAsync(productos[2]), Times.Never);
         }
     }
 }

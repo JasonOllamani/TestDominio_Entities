@@ -17,6 +17,13 @@ namespace Dominio.ValueObjects
             Valor = valor;
         }
 
+        public Precio AplicarDescuento(decimal porcentaje)
+        {
+            if (porcentaje < 0 || porcentaje > 1)
+                throw new ArgumentException("Porcentaje inválido.");
+            return new Precio(Valor * (1 - porcentaje));
+        }
+
         public override string ToString() => $"${Valor:N2}";
     }
 }

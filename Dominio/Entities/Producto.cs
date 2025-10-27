@@ -14,5 +14,10 @@ namespace Dominio.Entities
         public string Nombre { get; set; } = string.Empty;
         public Precio Precio { get; set; } = new Precio(0);//Value Object - Encapsula algunas reglas
         public CategoriaProducto Categoria { get; set; }//Tipo de producto
+
+        public void CambiarPrecio(Precio nuevoPrecio)
+        {
+            Precio = nuevoPrecio;
+        }
     }
 }

@@ -9,3 +9,4 @@ C:\Users\kalopezt\source\repos\Dominio\Dominio\obj\Debug\net8.0\Dominio.dll
 C:\Users\kalopezt\source\repos\Dominio\Dominio\obj\Debug\net8.0\refint\Dominio.dll
 C:\Users\kalopezt\source\repos\Dominio\Dominio\obj\Debug\net8.0\Dominio.pdb
 C:\Users\kalopezt\source\repos\Dominio\Dominio\obj\Debug\net8.0\ref\Dominio.dll
+C:\Users\kalopezt\source\repos\Dominio\Dominio\obj\Debug\net8.0\Dominio.sourcelink.json
