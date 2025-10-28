@@ -66,8 +66,7 @@
               "RelativeToolTip": "Dominio\\Servicios\\ServicioPromocion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T17:48:40.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T17:48:40.226Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "Dominio\\Interfaces\\IClienteRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T17:45:45.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T17:45:45.983Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "Dominio\\Entities\\Cliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T17:43:22.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T17:43:22.551Z"
             },
             {
               "$type": "Document",
@@ -105,8 +102,7 @@
               "RelativeToolTip": "Dominio\\Entities\\ProductoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T18:58:12.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T18:58:12.848Z"
             },
             {
               "$type": "Document",
@@ -116,7 +112,7 @@
               "RelativeDocumentMoniker": "Domain.Test\\Tests.cs",
               "ToolTip": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Domain.Test\\Tests.cs",
               "RelativeToolTip": "Domain.Test\\Tests.cs",
-              "ViewState": "AgIAAI4AAAAAAAAAAAAWwKAAAABvAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAWwKAAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-23T22:49:10.766Z",
               "EditorCaption": ""
@@ -131,8 +127,7 @@
               "RelativeToolTip": "Dominio\\Entities\\CarritoDeCompras.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T23:53:53.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T23:53:53.701Z"
             },
             {
               "$type": "Document",
@@ -144,8 +139,7 @@
               "RelativeToolTip": "Dominio\\Interfaces\\IProductoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T19:57:08.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T19:57:08.433Z"
             },
             {
               "$type": "Document",
@@ -157,8 +151,7 @@
               "RelativeToolTip": "Dominio\\Enums\\CategoriaProducto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T19:56:27.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T19:56:27.885Z"
             },
             {
               "$type": "Document",
@@ -170,8 +163,7 @@
               "RelativeToolTip": "Dominio\\ValueObjects\\Precio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T19:55:53.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T19:55:53.134Z"
             },
             {
               "$type": "Document",
@@ -183,8 +175,7 @@
               "RelativeToolTip": "Dominio\\Entities\\Producto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T19:54:33.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T19:54:33.742Z"
             }
           ]
         }
