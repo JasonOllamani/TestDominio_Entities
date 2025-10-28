@@ -158,7 +158,7 @@ namespace Domain.Test
         {
             new Producto { Id = 1, Nombre = "Laptop", Categoria = CategoriaProducto.Electronica, Precio = new Precio(1000) },
             new Producto { Id = 2, Nombre = "Mouse", Categoria = CategoriaProducto.Electronica, Precio = new Precio(100) },
-            new Producto { Id = 3, Nombre = "Camisa", Categoria = CategoriaProducto.Ropa, Precio = new Precio(50) }
+            new Producto { Id = 3, Nombre = "Camisa", Categoria = CategoriaProducto.Ropa, Precio = new Precio(5) }
         };
 
             var mockClienteRepo = new Mock<IClienteRepository>();
