@@ -1,5 +1,6 @@
 using Dominio.Entities;//class Producto
 using Dominio.Enums;//class Categoria
+using Dominio.Eventos;
 using Dominio.Interfaces;
 using Dominio.Servicios;
 using Dominio.ValueObjects;//Importa la class Precio
@@ -168,7 +169,9 @@ namespace Domain.Test
             mockProductoRepo.Setup(r => r.ObtenerTodosAsync()).ReturnsAsync(productos);
             mockProductoRepo.Setup(r => r.ActualizarAsync(It.IsAny<Producto>())).Returns(Task.CompletedTask);
 
-            var servicio = new ServicioPromocion(mockClienteRepo.Object, mockProductoRepo.Object);
+            var mockPublisher = new Mock<IEventPublisher>();
+
+            var servicio = new ServicioPromocion(mockClienteRepo.Object, mockProductoRepo.Object, mockPublisher.Object);
 
             // Act
             await servicio.AplicarDescuentoVip(1, CategoriaProducto.Electronica, 0.1m);
@@ -181,6 +184,21 @@ namespace Domain.Test
             mockProductoRepo.Verify(r => r.ActualizarAsync(productos[0]), Times.Once);
             mockProductoRepo.Verify(r => r.ActualizarAsync(productos[1]), Times.Once);
             mockProductoRepo.Verify(r => r.ActualizarAsync(productos[2]), Times.Never);
+
+            mockPublisher.Verify(p => p.Publicar(It.Is<ProductoActualizadoEvent>(e => e.ProductoId == 1 && e.NuevoPrecio == 900)), Times.Once);//SE AGREGO EL EVENTO
+        }
+    }
+
+    public class ProductoActualizadoEventTests
+    {
+        [Fact]
+        public void Evento_SeCreaCorrectamente()
+        {
+            var evento = new ProductoActualizadoEvent(1, 899.99m);
+
+            Assert.Equal(1, evento.ProductoId);
+            Assert.Equal(899.99m, evento.NuevoPrecio);
+            Assert.True(evento.Fecha <= DateTime.UtcNow);
         }
     }
 }

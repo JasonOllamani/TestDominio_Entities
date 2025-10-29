@@ -1,4 +1,5 @@
 ﻿using Dominio.Enums;
+using Dominio.Eventos;
 using Dominio.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -12,11 +13,13 @@ namespace Dominio.Servicios
     {
         private readonly IProductoRepository _productoRepo;
         private readonly IClienteRepository _clienteRepo;
+        private readonly IEventPublisher _eventPublisher;
 
-        public ServicioPromocion(IClienteRepository clienteRepo, IProductoRepository productoRepo)
+        public ServicioPromocion(IClienteRepository clienteRepo, IProductoRepository productoRepo, IEventPublisher eventPublisher)
         {
             _clienteRepo = clienteRepo;
             _productoRepo = productoRepo;
+            _eventPublisher = eventPublisher;
         }
 
         public async Task AplicarDescuentoVip(int clienteId, CategoriaProducto categoria, decimal porcentaje)
@@ -33,6 +36,9 @@ namespace Dominio.Servicios
                 var nuevoPrecio = producto.Precio.AplicarDescuento(porcentaje);
                 producto.Precio = nuevoPrecio;
                 await _productoRepo.ActualizarAsync(producto);
+
+                var evento = new ProductoActualizadoEvent(producto.Id, nuevoPrecio.Valor);
+                _eventPublisher.Publicar(evento);
             }
         }
     }
