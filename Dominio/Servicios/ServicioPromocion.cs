@@ -29,7 +29,7 @@ namespace Dominio.Servicios
                 return;
 
             var productos = await _productoRepo.ObtenerTodosAsync();
-            var filtrados = productos.Where(p => p.Categoria == categoria);
+            var filtrados = productos.Where(p => p.Categoria == categoria).ToList();
 
             foreach (var producto in filtrados)
             {
@@ -42,6 +42,4 @@ namespace Dominio.Servicios
             }
         }
     }
-
-
 }

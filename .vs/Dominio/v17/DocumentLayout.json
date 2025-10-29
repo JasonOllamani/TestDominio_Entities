@@ -3,16 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\dominio\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18FD4535-93AD-4263-84E0-D5C36D148C41}|Domain.Test\\Domain.Test.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\domain.test\\integracion\\serviciopromocionintegraciontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18FD4535-93AD-4263-84E0-D5C36D148C41}|Domain.Test\\Domain.Test.csproj|solutionrelative:domain.test\\integracion\\serviciopromocionintegraciontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18FD4535-93AD-4263-84E0-D5C36D148C41}|Domain.Test\\Domain.Test.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\domain.test\\fakes\\clienterepositoryinmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18FD4535-93AD-4263-84E0-D5C36D148C41}|Domain.Test\\Domain.Test.csproj|solutionrelative:domain.test\\fakes\\clienterepositoryinmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18FD4535-93AD-4263-84E0-D5C36D148C41}|Domain.Test\\Domain.Test.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\domain.test\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18FD4535-93AD-4263-84E0-D5C36D148C41}|Domain.Test\\Domain.Test.csproj|solutionrelative:domain.test\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\dominio\\interfaces\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\dominio\\servicios\\serviciopromocion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|solutionrelative:dominio\\servicios\\serviciopromocion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\dominio\\eventos\\productoactualizadoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|solutionrelative:dominio\\eventos\\productoactualizadoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\dominio\\valueobjects\\precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|solutionrelative:dominio\\valueobjects\\precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\dominio\\enums\\categoriaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|solutionrelative:dominio\\enums\\categoriaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\dominio\\interfaces\\ieventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\ieventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\dominio\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18FD4535-93AD-4263-84E0-D5C36D148C41}|Domain.Test\\Domain.Test.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\domain.test\\fakes\\productorepositoryinmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18FD4535-93AD-4263-84E0-D5C36D148C41}|Domain.Test\\Domain.Test.csproj|solutionrelative:domain.test\\fakes\\productorepositoryinmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18FD4535-93AD-4263-84E0-D5C36D148C41}|Domain.Test\\Domain.Test.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\domain.test\\fakes\\eventpublisherinmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18FD4535-93AD-4263-84E0-D5C36D148C41}|Domain.Test\\Domain.Test.csproj|solutionrelative:domain.test\\fakes\\eventpublisherinmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\dominio\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,26 +63,6 @@
       "RelativeMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entities\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\dominio\\enums\\categoriaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|solutionrelative:dominio\\enums\\categoriaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\dominio\\valueobjects\\precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|solutionrelative:dominio\\valueobjects\\precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\dominio\\servicios\\serviciopromocion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|solutionrelative:dominio\\servicios\\serviciopromocion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\dominio\\eventos\\productoactualizadoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|solutionrelative:dominio\\eventos\\productoactualizadoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18FD4535-93AD-4263-84E0-D5C36D148C41}|Domain.Test\\Domain.Test.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\domain.test\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18FD4535-93AD-4263-84E0-D5C36D148C41}|Domain.Test\\Domain.Test.csproj|solutionrelative:domain.test\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|c:\\users\\kalopezt\\source\\repos\\dominio\\dominio\\entities\\carritodecompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A50130E-D1B1-4EB4-A066-8BC20A35A645}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entities\\carritodecompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -58,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 85,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,20 +82,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
+              "Title": "EventPublisherInMemory.cs",
+              "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Domain.Test\\Fakes\\EventPublisherInMemory.cs",
+              "RelativeDocumentMoniker": "Domain.Test\\Fakes\\EventPublisherInMemory.cs",
+              "ToolTip": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Domain.Test\\Fakes\\EventPublisherInMemory.cs",
+              "RelativeToolTip": "Domain.Test\\Fakes\\EventPublisherInMemory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:57:06.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductoRepositoryInMemory.cs",
+              "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Domain.Test\\Fakes\\ProductoRepositoryInMemory.cs",
+              "RelativeDocumentMoniker": "Domain.Test\\Fakes\\ProductoRepositoryInMemory.cs",
+              "ToolTip": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Domain.Test\\Fakes\\ProductoRepositoryInMemory.cs",
+              "RelativeToolTip": "Domain.Test\\Fakes\\ProductoRepositoryInMemory.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:56:58.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteRepositoryInMemory.cs",
+              "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Domain.Test\\Fakes\\ClienteRepositoryInMemory.cs",
+              "RelativeDocumentMoniker": "Domain.Test\\Fakes\\ClienteRepositoryInMemory.cs",
+              "ToolTip": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Domain.Test\\Fakes\\ClienteRepositoryInMemory.cs",
+              "RelativeToolTip": "Domain.Test\\Fakes\\ClienteRepositoryInMemory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:56:48.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServicioPromocionIntegracionTests.cs",
+              "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Domain.Test\\Integracion\\ServicioPromocionIntegracionTests.cs",
+              "RelativeDocumentMoniker": "Domain.Test\\Integracion\\ServicioPromocionIntegracionTests.cs",
+              "ToolTip": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Domain.Test\\Integracion\\ServicioPromocionIntegracionTests.cs",
+              "RelativeToolTip": "Domain.Test\\Integracion\\ServicioPromocionIntegracionTests.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwDoAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:56:03.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IEventPublisher.cs",
               "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Interfaces\\IEventPublisher.cs",
               "RelativeDocumentMoniker": "Dominio\\Interfaces\\IEventPublisher.cs",
               "ToolTip": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Interfaces\\IEventPublisher.cs",
               "RelativeToolTip": "Dominio\\Interfaces\\IEventPublisher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T23:24:45.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "ProductoActualizadoEvent.cs",
               "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Eventos\\ProductoActualizadoEvent.cs",
               "RelativeDocumentMoniker": "Dominio\\Eventos\\ProductoActualizadoEvent.cs",
@@ -92,33 +160,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "ServicioPromocion.cs",
               "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Servicios\\ServicioPromocion.cs",
               "RelativeDocumentMoniker": "Dominio\\Servicios\\ServicioPromocion.cs",
               "ToolTip": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Servicios\\ServicioPromocion.cs",
               "RelativeToolTip": "Dominio\\Servicios\\ServicioPromocion.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAADwvycAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T17:48:40.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "IClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Interfaces\\IClienteRepository.cs",
               "RelativeDocumentMoniker": "Dominio\\Interfaces\\IClienteRepository.cs",
               "ToolTip": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Interfaces\\IClienteRepository.cs",
               "RelativeToolTip": "Dominio\\Interfaces\\IClienteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T17:45:45.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Entities\\Cliente.cs",
               "RelativeDocumentMoniker": "Dominio\\Entities\\Cliente.cs",
@@ -126,12 +194,11 @@
               "RelativeToolTip": "Dominio\\Entities\\Cliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T17:43:22.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T17:43:22.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "ProductoService.cs",
               "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Entities\\ProductoService.cs",
               "RelativeDocumentMoniker": "Dominio\\Entities\\ProductoService.cs",
@@ -139,25 +206,24 @@
               "RelativeToolTip": "Dominio\\Entities\\ProductoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T18:58:12.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T18:58:12.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Tests.cs",
               "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Domain.Test\\Tests.cs",
               "RelativeDocumentMoniker": "Domain.Test\\Tests.cs",
               "ToolTip": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Domain.Test\\Tests.cs",
               "RelativeToolTip": "Domain.Test\\Tests.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAqwLwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAUwKQAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-23T22:49:10.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "CarritoDeCompras.cs",
               "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Entities\\CarritoDeCompras.cs",
               "RelativeDocumentMoniker": "Dominio\\Entities\\CarritoDeCompras.cs",
@@ -165,25 +231,24 @@
               "RelativeToolTip": "Dominio\\Entities\\CarritoDeCompras.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T23:53:53.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T23:53:53.701Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "IProductoRepository.cs",
               "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Interfaces\\IProductoRepository.cs",
               "RelativeDocumentMoniker": "Dominio\\Interfaces\\IProductoRepository.cs",
               "ToolTip": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Interfaces\\IProductoRepository.cs",
               "RelativeToolTip": "Dominio\\Interfaces\\IProductoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-23T19:57:08.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CategoriaProducto.cs",
               "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Enums\\CategoriaProducto.cs",
               "RelativeDocumentMoniker": "Dominio\\Enums\\CategoriaProducto.cs",
@@ -196,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Precio.cs",
               "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\ValueObjects\\Precio.cs",
               "RelativeDocumentMoniker": "Dominio\\ValueObjects\\Precio.cs",
@@ -209,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\kalopezt\\source\\repos\\Dominio\\Dominio\\Entities\\Producto.cs",
               "RelativeDocumentMoniker": "Dominio\\Entities\\Producto.cs",
@@ -217,8 +282,7 @@
               "RelativeToolTip": "Dominio\\Entities\\Producto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T19:54:33.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T19:54:33.742Z"
             }
           ]
         }
