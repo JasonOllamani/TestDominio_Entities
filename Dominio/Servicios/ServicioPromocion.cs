@@ -38,7 +38,8 @@ namespace Dominio.Servicios
                 await _productoRepo.ActualizarAsync(producto);
 
                 var evento = new ProductoActualizadoEvent(producto.Id, nuevoPrecio.Valor);
-                _eventPublisher.Publicar(evento);
+                //_eventPublisher.Publicar(evento);
+                await _eventPublisher.PublicarAsync(evento);
             }
         }
     }

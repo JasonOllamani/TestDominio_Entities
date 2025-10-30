@@ -10,7 +10,15 @@ namespace Domain.Test.Fakes
     public class EventPublisherInMemory : IEventPublisher
     {
         public List<object> EventosPublicados { get; } = new();
-        public void Publicar(object evento) => EventosPublicados.Add(evento);
-    }
+        //public void Publicar(object evento)
+        //{
+        //    EventosPublicados.Add(evento);
+        //}
 
+        public Task PublicarAsync<T>(T evento)
+        {
+            EventosPublicados.Add(evento!);
+            return Task.CompletedTask;
+        }
+    }
 }

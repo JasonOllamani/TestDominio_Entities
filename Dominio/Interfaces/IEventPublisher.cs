@@ -8,6 +8,8 @@ namespace Dominio.Interfaces
 {
     public interface IEventPublisher
     {
-        void Publicar(object evento);
+        //void Publicar(object evento);
+
+        Task PublicarAsync<T>(T evento);
     }
 }

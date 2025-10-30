@@ -19,7 +19,7 @@ namespace Domain.Test.Integracion
         {
             // Datos simulados
             //var cliente = new Cliente { Id = 1, Nombre = "Juan", EsVip = true };
-            var cliente = new List<Cliente>
+            var cliente = new List<Cliente>//Se crea una lista para los Clientes
             {
                 new Cliente { Id = 1, Nombre = "Juan", EsVip = true  },
                 new Cliente { Id = 2, Nombre = "Ana", EsVip = false}
@@ -36,7 +36,7 @@ namespace Domain.Test.Integracion
             };
 
             // Repositorios y publicador reales en memoria
-            var clienteRepo = new ClienteRepositoryInMemory( cliente );
+            var clienteRepo = new ClienteRepositoryInMemory( cliente );//Anteriormente se manejaba una lista pero como ya viene en una solo se manda a llamar
             var productoRepo = new ProductoRepositoryInMemory(productos);
             var eventPublisher = new EventPublisherInMemory();
 

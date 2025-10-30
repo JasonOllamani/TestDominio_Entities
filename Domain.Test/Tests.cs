@@ -185,7 +185,8 @@ namespace Domain.Test
             mockProductoRepo.Verify(r => r.ActualizarAsync(productos[1]), Times.Once);
             mockProductoRepo.Verify(r => r.ActualizarAsync(productos[2]), Times.Never);
 
-            mockPublisher.Verify(p => p.Publicar(It.Is<ProductoActualizadoEvent>(e => e.ProductoId == 1 && e.NuevoPrecio == 900)), Times.Once);//SE AGREGO EL EVENTO
+            //mockPublisher.Verify(p => p.Publicar(It.Is<ProductoActualizadoEvent>(e => e.ProductoId == 1 && e.NuevoPrecio == 900)), Times.Once);//SE AGREGO EL EVENTO
+            mockPublisher.Verify(p => p.PublicarAsync(It.Is<ProductoActualizadoEvent>(e => e.ProductoId == 1 && e.NuevoPrecio == 900)), Times.Once);//SE AGREGO EL EVENTO
         }
     }
 

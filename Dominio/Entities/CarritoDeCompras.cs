@@ -21,5 +21,14 @@ namespace Dominio.Entities
         }
 
         public int CantidadProductos => _productos.Count;
+        public List<Producto> ObtenerProductos()
+        {
+            return _productos.ToList();
+        }
+        public void Vaciar()
+        {
+            _productos.Clear();
+        }
+
     }
 }
